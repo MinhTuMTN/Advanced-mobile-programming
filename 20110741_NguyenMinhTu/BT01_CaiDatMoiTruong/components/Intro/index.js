@@ -12,6 +12,7 @@ const Intro = () => {
       });
     }, 10000);
 
+    // navigation.navigate("Home");
     return () => {
       clearTimeout(id);
     };
